@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
-public class exceptionHandlingC {
+public class exceptionHandlingC extends exceptionHandlingA
+{
+    
 }
