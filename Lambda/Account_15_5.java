@@ -1,11 +1,11 @@
 // Exercise 15.4 part (b)
 // A simple class that holds one customer account: account number, name, balance.
-public class Account_15_4 {
-    private final int accountNumber;
-    private final String name;
+public class Account_15_5 {
+    private int accountNumber;
+    private String name;
     private double balance;
 
-    public Account_15_4(int accountNumber, String name, double balance) {
+    public Account_15_5(int accountNumber, String name, double balance) {
         this.accountNumber = accountNumber;
         this.name = name;
         this.balance = balance;
@@ -24,7 +24,7 @@ public class Account_15_4 {
     }
 
     // Adds the transaction's amount to this account's balance.
-    public void combine(TransactionRecord_15_4 transaction) {
+    public void combine(TransactionRecord_15_5 transaction) {
         balance = balance + transaction.getAmount();
     }
 

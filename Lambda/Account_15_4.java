@@ -1,8 +1,8 @@
 // Exercise 15.4 part (b)
 // A simple class that holds one customer account: account number, name, balance.
 public class Account_15_4 {
-    private final int accountNumber;
-    private final String name;
+    private int accountNumber;
+    private String name;
     private double balance;
 
     public Account_15_4(int accountNumber, String name, double balance) {
